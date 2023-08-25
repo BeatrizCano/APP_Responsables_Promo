@@ -48,8 +48,8 @@ Es importante no cambiar el nombre de las carpetas, y si se hace, hay que cambia
 ## Base de datos
 A continuación se especifica cómo crear la base de datos:
 
--Crear una base de datos llamada: "coder_flow"
--Dentro crear una tabla llamada "persona":
+- Crear una base de datos llamada: "coder_flow"
+- Dentro crear una tabla llamada "persona":
 
     CREATE TABLE `persona` (
   `identificador` bigint(255) NOT NULL,
@@ -65,9 +65,9 @@ A continuación se especifica cómo crear la base de datos:
   `certificado_discapacidad` tinyint(1) NOT NULL,
   `telefono` bigint(255) NOT NULL,
   `promo_id` bigint(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--Crear otra tabla llamada "promo":
+- Crear otra tabla llamada "promo":
 
     CREATE TABLE `promo` (
     `identificador` bigint(255) NOT NULL,
@@ -80,15 +80,15 @@ A continuación se especifica cómo crear la base de datos:
     `rp` varchar(255) NOT NULL
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-Se añade el archivo sql con el resto de las tablas del proyecto, realizadas para mejoras posteriores del proyecto
+- Se añade el archivo sql con el resto de las tablas del proyecto, realizadas para mejoras posteriores del proyecto
 
 ## Mejoras del proyecto
--Mejorar el css de los formularios enfocándonos en la experiencia de usuario (diseño, colores, ...)
--Compartimentar mejor los espacios para recibir los datos de las tablas y que queden más ordenados visualmente (tablas)
--Separar las funcionalidades de los formularios, botones de redirección para que sea más sencillo de usar
--Cambiar el texto de los botones especificando solo la acción, sin especificar "coder" o "promo"
--Modificar el idioma de la base de datos para que concuerde con el código
--Aumentar las funcionalidades del proyecto (filtros, otras vistas, ...)
+- Mejorar el css de los formularios enfocándonos en la experiencia de usuario (diseño, colores, ...)
+- Compartimentar mejor los espacios para recibir los datos de las tablas y que queden más ordenados visualmente (tablas)
+- Separar las funcionalidades de los formularios, botones de redirección para que sea más sencillo de usar
+- Cambiar el texto de los botones especificando solo la acción, sin especificar "coder" o "promo"
+- Modificar el idioma de la base de datos para que concuerde con el código
+- Aumentar las funcionalidades del proyecto (filtros, otras vistas, ...)
 
 ## Autoras
 
